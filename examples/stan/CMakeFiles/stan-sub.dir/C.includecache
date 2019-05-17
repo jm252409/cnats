@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jmears/cnats/examples/examples.h
+nats.h
+-
+stdio.h
+-
+string.h
+-
+strings.h
+-
+signal.h
+-
+
+/home/jmears/cnats/examples/stan/sub.c
+../examples.h
+/home/jmears/cnats/examples/examples.h
+
+src/nats.h
+stdlib.h
+-
+stdint.h
+-
+stdbool.h
+-
+inttypes.h
+-
+stdio.h
+-
+status.h
+src/status.h
+version.h
+src/version.h
+winsock2.h
+-
+
+src/status.h
+
+src/version.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -pedantic -pthread -Wall -W -Wno-unused-variable -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG  -rdynamic CMakeFiles/testsuite.dir/test.c.o  -o testsuite -Wl,-rpath,/home/jmears/cnats/pbuf/lib/linux ../src/libnats_static.a -lrt -lssl -lcrypto ../pbuf/lib/linux/libprotobuf-c.so 
